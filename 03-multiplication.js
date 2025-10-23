@@ -7,7 +7,7 @@
 
   Placeholder : levée d'erreur pour indiquer que l'exercice doit être implémenté.
 */
-function multiplication(a, b) {
+/*function multiplication(a, b) {
   // Vérifier le nombre d'arguments
   if (arguments.length !== 2) return undefined;
 
@@ -16,7 +16,12 @@ function multiplication(a, b) {
   if (isNaN(a) || isNaN(b)) return undefined;
 
   return a * b;
+}*/
+
+function multiplication(a, b) {
+  return a * b;
 }
+
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { multiplication }
